@@ -1,0 +1,1 @@
+session01 -> GEMINI_API_KEY was added 
