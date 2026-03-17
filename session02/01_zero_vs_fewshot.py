@@ -19,9 +19,9 @@ review = "The battery dies after 3 hours but the screen is gorgeous."
 zero_shot = f"Classify the review as Positive, Negative, Mixed:\n {review}"
 
 few_shot = f"""Classify each review as positive, negative, mixed:
-Review: "Loved it" -> Positive
-Review: "Broken" -> Negative
-Review: "Great but Terrible" -> Mixed
+Review: "Absolutely love it, works perfectly!" → Positive
+Review: "Broke after one day, waste of money." → Negative
+Review: "Great camera but terrible battery life." → Mixed
 Review:{review}
 """
 print("--- zero shot ----")
