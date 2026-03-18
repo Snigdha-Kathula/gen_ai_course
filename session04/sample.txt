@@ -1,0 +1,10 @@
+InCred Financial Services is a technology-led lending company.
+It offers personal loans, business loans, and education loans.
+The company uses advanced data analytics and machine learning to assess creditworthiness.
+InCred was founded in 2016 by Bhupinder Singh.
+The technology stack includes Python for backend services, PostgreSQL for databases,
+Redis for caching, and RabbitMQ for message queuing.
+The engineering team follows microservices architecture.
+Deployments are managed using Docker and Kubernetes.
+The platform processes over 10,000 loan applications per day.
+Customer support is available 24/7 through the web portal and mobile app.
