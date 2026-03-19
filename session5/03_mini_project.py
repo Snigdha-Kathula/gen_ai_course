@@ -24,7 +24,7 @@ def summarise(old_messages):
     for msg in old_messages:
         if isinstance(msg,HumanMessage):
             conversation = f"User:{msg.content}"
-        if isinstance(msg,HumanMessage):
+        if isinstance(msg,AIMessage):
             conversation = f"Assistant:{msg.content}"
         prompt = f"""Summarise this conversation in 3-5 sentences.
     Preserve all key facts — names, preferences, technical context.
@@ -44,7 +44,9 @@ def chat(message:str):
         recent_messages = messages[:-SIZE]
         summary = summarise(old_messages)
         updated_system = f"{SYSTEM}\n\nContext from earlier:\n{summary}"
-        messages = updated_system + recent_messages
+        messages = [SystemMessage(content=updated_system)] + recent_messages
+        print(f"\n[Summary triggered at turn {total_turns}]")
+        print(f"[Summary: {summary[:100]}...]\n")
     response = llm.invoke(messages)
     messages.append(AIMessage(response.content))
     return response.content
