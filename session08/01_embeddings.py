@@ -37,7 +37,7 @@ print("=== Embedding dimensions ===")
 sample = get_embedding(sentences[0])
 print(f"{sentences[0]}")
 print(f"Dimensions: {len(sample)}")
-print(f"First 5 values: {sentences[:5]}")
+print(f"First 5 values: {sample[:5]}")
 print("=== Similarity scores ===")
 base = sentences[0]
 base_vec = get_embedding(sentence=base)
