@@ -57,12 +57,12 @@ def cosine_similarity(vec_a: list, vec_b: list) -> float:
     return dot_product / (magnitude_a * magnitude_b)
 ```
 
-| Score | Meaning |
-|---|---|
-| 1.000 | Identical meaning |
-| 0.8+ | Very similar |
-| 0.5–0.8 | Somewhat related |
-| 0.0–0.5 | Different topic |
+| Score    | Meaning            |
+|----------|--------------------|
+| 1.000    | Identical meaning  |
+| 0.8+     | Very similar       |
+| 0.5–0.8  | Somewhat related   |
+| 0.0–0.5  | Different topic    |
 
 ### Your live results today
 ```
@@ -130,11 +130,11 @@ even though none of the words match.
 
 ## In-memory vs persistent
 
-| | In-memory | Persistent |
-|---|---|---|
-| Setup | `chromadb.Client()` | `chromadb.PersistentClient(path=...)` |
-| Survives restart | ❌ | ✅ |
-| Use case | Testing, dev | Production |
+|                  | In-memory           | Persistent                            |
+|------------------|---------------------|---------------------------------------|
+| Setup            | `chromadb.Client()` | `chromadb.PersistentClient(path=...)` |
+| Survives restart | ❌                   | ✅                                     |
+| Use case         | Testing, dev        | Production                            |
 
 ### Get or create pattern — always use this for persistent
 
@@ -195,11 +195,11 @@ You'll use this heavily in Phase 3 RAG pipeline.
 
 ## What you built today
 
-| File | What it does | Key concept |
-|---|---|---|
-| `01_embeddings.py` | Generate embeddings + cosine similarity | Text → numbers → distance |
-| `02_vector_db.py` | Store + search movies semantically | ChromaDB in-memory |
-| `03_mini_project.py` | Persistent science knowledge base | ChromaDB on disk + metadata |
+| File                 | What it does                            | Key concept                 |
+|----------------------|-----------------------------------------|-----------------------------|
+| `01_embeddings.py`   | Generate embeddings + cosine similarity | Text → numbers → distance   |
+| `02_vector_db.py`    | Store + search movies semantically      | ChromaDB in-memory          |
+| `03_mini_project.py` | Persistent science knowledge base       | ChromaDB on disk + metadata |
 
 ---
 
