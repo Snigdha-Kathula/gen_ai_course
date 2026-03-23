@@ -1,0 +1,13 @@
+Session 9 — Chunking Strategies + Document Loading
+Today's goal: Load real documents and split them into chunks optimally before storing in a vector database. By end of 2 hours you'll have a document ingestion pipeline that can handle any text file.
+Why this matters: In Session 8 you stored single sentences. In real RAG, documents are pages long — a PDF, a README, a knowledge base article. You can't embed an entire document as one vector. You need to split it into chunks first. How you split determines retrieval quality.
+
+- Why chunking matters:
+Too large a chunk  → too much noise, relevant info diluted
+Too small a chunk  → loses context, incomplete answers
+Just right         → one clear idea per chunk
+
+- 3 chunking strategies:
+1. Fixed size       → split every N characters, simple but dumb
+2. Sentence-aware   → split at sentence boundaries, smarter
+3. Semantic         → split when topic changes, smartest

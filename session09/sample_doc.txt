@@ -1,0 +1,23 @@
+Artificial Intelligence is the simulation of human intelligence in machines.
+It encompasses various subfields including machine learning, deep learning, and natural language processing.
+AI systems can perform tasks that typically require human intelligence such as visual perception, speech recognition, and decision making.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn from data.
+Instead of being explicitly programmed, ML systems identify patterns in data and improve over time.
+Common machine learning algorithms include linear regression, decision trees, and neural networks.
+Supervised learning uses labelled data while unsupervised learning finds patterns in unlabelled data.
+
+Deep learning is a subset of machine learning that uses neural networks with many layers.
+These deep neural networks can automatically learn representations of data with multiple levels of abstraction.
+Deep learning has achieved breakthrough results in image recognition, speech processing, and natural language understanding.
+Convolutional neural networks are commonly used for image tasks while recurrent neural networks handle sequential data.
+
+Natural language processing enables computers to understand, interpret, and generate human language.
+NLP tasks include text classification, sentiment analysis, named entity recognition, and machine translation.
+Large language models like GPT and Gemini are trained on massive text datasets and can generate coherent text.
+Transformers architecture revolutionised NLP by introducing attention mechanisms that capture long-range dependencies.
+
+Computer vision allows machines to interpret and understand visual information from the world.
+Image classification assigns labels to images while object detection locates specific objects within images.
+Semantic segmentation classifies every pixel in an image into predefined categories.
+Applications include autonomous vehicles, medical image analysis, and facial recognition systems.
