@@ -1,0 +1,39 @@
+Python is a high-level programming language known for its simplicity and readability.
+It was created by Guido van Rossum and first released in 1991.
+Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.
+Python is widely used in web development, data science, artificial intelligence, and automation.
+
+FastAPI is a modern Python web framework for building APIs.
+It is based on standard Python type hints and provides automatic documentation via Swagger UI.
+FastAPI is one of the fastest Python frameworks available, comparable to NodeJS and Go.
+It supports asynchronous programming using Python's async and await keywords.
+
+PostgreSQL is a powerful open-source relational database system.
+It has been actively developed for over 35 years and supports SQL and JSON querying.
+PostgreSQL supports advanced features like full-text search, window functions, and table partitioning.
+It is known for reliability, data integrity, and extensibility through custom functions and extensions.
+
+Redis is an in-memory data structure store used as a database, cache, and message broker.
+It supports data structures such as strings, hashes, lists, sets, and sorted sets.
+Redis is extremely fast because all data is stored in memory rather than on disk.
+Common use cases include session management, caching, real-time leaderboards, and pub-sub messaging.
+
+Docker is a platform for building and running applications in containers.
+Containers are lightweight, portable, and isolated environments that package code with all dependencies.
+Docker uses a Dockerfile to define the build steps for creating a container image.
+Docker Compose allows you to define and run multi-container applications with a single YAML file.
+
+Kubernetes is an open-source container orchestration system originally developed by Google.
+It automates the deployment, scaling, and management of containerised applications.
+Key concepts include Pods, Deployments, Services, ConfigMaps, and Namespaces.
+Kubernetes uses a declarative configuration model where you describe the desired state of your system.
+
+Git is a distributed version control system created by Linus Torvalds in 2005.
+It tracks changes in source code during software development.
+Key Git concepts include commits, branches, merges, rebases, and pull requests.
+GitHub, GitLab, and Bitbucket are popular platforms that host Git repositories.
+
+REST APIs use HTTP methods to perform operations on resources.
+GET retrieves data, POST creates new resources, PUT updates existing resources, DELETE removes resources.
+REST APIs should be stateless — each request contains all information needed to process it.
+Common response formats include JSON and XML, with JSON being the dominant choice today.
